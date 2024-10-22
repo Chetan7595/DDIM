@@ -39,6 +39,21 @@ python inference.py -c ./config/inference/cifar10.yaml -l /path_to_cifar10_64dim
 python inference.py -c ./config/inference/cifar10_128dim.yaml -l /path_to_cifar10_128dim.pt/cifar10_128dim.pt
 ```
 - CelebA-HQ
+  Download the dataset from the google drive link and save this according to below file system
+- DDIM
+    - /config
+    - /src
+    - /images_README
+    - inference.py
+    - train.py
+    ...
+    - /data (make the directory if you don't have it)
+        - /celeba_hq_256
+            - 00000.jpg
+            - 00001.jpg
+            ...
+    
+```
 
 ```commandline
 python inference.py -c ./config/inference/celeba_hq_256.yaml -l /path_to_celeba_hq_256.pt/celeba_hq_256.pt
